@@ -20,6 +20,6 @@ let intervalo = setInterval(() => {
 
   if (timeRemaining<= 0) {
     clearInterval(intervalo);
-    alert("Ya es hora!!!!);
+    alert("Ya es hora!!!!");
   }
 }, 1000); // por 1000 milisegundos pra que se ejecute cada segundo
